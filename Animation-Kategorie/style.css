@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+}
+
+h1 {
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    color: white;
+    margin-top: 6px;
+    margin-bottom: 30px;
+    letter-spacing: -0.2px;
+}
+
+p {
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.kategoriefliesstext {
+    margin-bottom: 20px;
+}
+
+.headlinetext {
+    font-weight: 600;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.kategoriebuttom {
+    background-color: #606273;
+    border-radius: 3px;
+    color: white;
+    padding: 12px 20px;
+    text-align: center;
+
+}
+
+.maincontainer {
+    height: 400px;
+    width: 1200px;
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content:space-between;
+}
+
+.hauptkategorie {
+
+    height: 100%;
+    width: 22%;
+
+    display: flex;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.hauptkategorie-background-image {
+
+    height: 100%;
+    width: 100%;
+
+    background-image: url(/MediaFile/2014_03_12_fotoshooting_kuk_web_0014\ Kopie.webp);
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
+
+.hauptkategorie-green-over {
+
+    height: 100%;
+    width: 100%;
+
+    background-color: #74b231b7;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 30px;
+    border-radius: 5px;
+
+    transform: translateY(300px);
+
+    transition: all;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+}
+
+.hauptkategorie:hover .hauptkategorie-green-over {
+
+    height: 100%;
+    width: 100%;
+
+    background-color: #74b231b7;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 5px;
+    padding-top: 90px;
+
+    transform: translateY(0px);
+}

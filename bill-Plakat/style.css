@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--text-color);
+    overflow: hidden;
+}
+
+:root {
+    --background-color: #EDD24E;
+    --text-color: #000000; 
+}
+
+@import url('https://fonts.cdnfonts.com/css/arial-2');
+
+p {
+    font-family: 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    color: var(--text-color);
+}
+
+.bigletters {
+    font-size: 50vw;
+    font-weight: 600;
+    line-height: 69%;
+}
+
+.adress-text {
+    font-size: 0.8vw;
+    font-weight: 200;
+    line-height: 120%;
+}
+
+.rotate-text {
+    font-size: 1.2vw;
+    font-weight: 200;
+    letter-spacing: 0.1em;
+}
+
+.parentcontainer {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 20px 3fr 0.5fr 3.5fr 3fr 1fr 1.8fr 0.5fr 1fr 1.8fr 0.5fr 1fr 1.8fr 0.5fr 3fr 20px;
+    grid-template-rows: 20px 3fr 8fr 3fr 20px;
+}
+
+.yellow-background-area {
+    grid-area: 2 / 2 / 5 / 16;
+    background-color: var(--background-color);
+}
+
+.b-cells {
+    grid-column: 4 / 6;
+    grid-row: 3 / 4;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding-right: 3vw;
+    padding-top: 2vw;
+}
+
+.i-cells {
+    grid-column: 7 / 8;
+    grid-row: 3 / 4;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.l-cells-one {
+    grid-column: 10 / 11;
+    grid-row: 3 / 4;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.l-cells-two {
+    grid-column: 13 / 14;
+    grid-row: 3 / 4;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.date-cells {
+    grid-column: 3 / 4;
+    grid-row: 3 / 4;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    writing-mode: vertical-lr;
+    padding-left: 0.5vw;
+    padding-bottom: 22.5vw;
+}
+
+.museum-gestaltung-cells {
+    grid-column: 8 / 9;
+    grid-row: 3 / 4;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    writing-mode: vertical-lr;
+    padding-bottom: 0vw;
+    padding-right: 0.5vw;
+}
+
+.max-bill-cells {
+    grid-column: 11 / 12;
+    grid-row: 3 / 4;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    writing-mode: vertical-lr;
+    padding-bottom: 0vw;
+    padding-right: 0.5vw;
+}
+
+.bill-zürich-reklame-cells {
+    grid-column: 14 / 15;
+    grid-row: 3 / 4;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    writing-mode: vertical-lr;
+    padding-bottom: 0vw;
+    padding-right: 0.5vw;
+}
+
+.adress-content-cells {
+    grid-column: 5 / 6;
+    grid-row: 3 / 4;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    writing-mode: vertical-lr;
+    padding-bottom: 25vw;
+}
