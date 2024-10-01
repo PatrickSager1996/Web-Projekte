@@ -312,13 +312,15 @@ p {
 /*Layout Mobile*/
 @media (max-width: 530px) {
     html {
-        overflow: hidden;
+        overflow: visible;
+        overflow-x: hidden;
     }
 
     body {
         width: 100vw;
         height: 100vh;
-        overflow: hidden;
+        overflow: visible;
+        overflow-x: hidden;
 
         p {
             font-size: 42vh;
@@ -354,19 +356,19 @@ p {
         .special-cell-o {
             grid-column: 2 / 4;
             grid-row: 2 / 3;
-            transform: translate(0vh, -2vh);
+            transform: translate(-2vh, -2vh);
         }
 
         .special-cell-h {
             grid-column: 2 / 4;
             grid-row: 2 / 3;
-            transform: translate(22vh, -2vh);
+            transform: translate(20vh, -2vh);
         }
 
         .special-cell-l {
             grid-column: 2 / 4;
             grid-row: 2 / 3;
-            transform: translate(-0.5vh, 4vh);
+            transform: translate(-2.5vh, 4vh);
         }
 
         .special-cell-is {
