@@ -105,8 +105,7 @@ p {
 .special-cell-l {
     grid-column: 2;
     grid-row: 3;
-    opacity: 0.6;
-    transform: translate(9.6vw, -4vw);
+    transform: translate(9.6vw, -2vw);
     align-self: flex-end;
 }
 
@@ -215,13 +214,13 @@ p {
 /*Layout Tablet*/
 @media (max-width: 1025px) {
     html {
-        overflow: visible;
-        overflow-x: hidden;
+        overflow: hidden;
+        overflow-y: visible;
     }
 
     body {
-        overflow: visible;
-        overflow-x: hidden;
+        overflow: hidden;
+        overflow-y: visible;
 
         /*font (Schrift) Klassen*/
         p {
@@ -287,7 +286,7 @@ p {
         .special-cell-l {
             grid-column: 2 / 4;
             grid-row: 2;
-            transform: translate(-3vw, 12vw);
+            transform: translate(-3vw, 13.5vw);
             align-self: flex-end;
         }
 
@@ -298,7 +297,7 @@ p {
         }
 
         .special-cell-text {
-            transform: translate(-1vw, -30.6vw);
+            transform: translate(-1vw, -36.6vw);
             grid-column: 1 / 2;
             grid-row: 2 / 4;
             writing-mode: vertical-rl;
@@ -365,7 +364,7 @@ p {
         .special-cell-l {
             grid-column: 2 / 4;
             grid-row: 2 / 3;
-            transform: translate(-2.5vh, 9vh);
+            transform: translate(-2.5vh, 9.8vh);
         }
 
         .special-cell-is {
@@ -387,8 +386,9 @@ p {
     animation-name: intro-tyrcis-letters;
     animation-duration: 2s;
     animation-iteration-count: 1;
-    animation-delay: 1s;
+    animation-delay: 0.5s;
     animation-fill-mode: forwards;
+    animation-timing-function: ease-out;
 }
 
 .red-animation {
@@ -396,8 +396,9 @@ p {
     animation-name: intro-red-letters;
     animation-duration: 2s;
     animation-iteration-count: 1;
-    animation-delay:3s;
+    animation-delay: 2s;
     animation-fill-mode: forwards;
+    animation-timing-function: ease-out;
 }
 
 .o-animation {
@@ -405,7 +406,7 @@ p {
     animation-name: intro-o-letter;
     animation-duration: 2s;
     animation-iteration-count: 1;
-    animation-delay:4s;
+    animation-delay: 3s;
     animation-fill-mode: forwards;
 }
 
@@ -414,7 +415,7 @@ p {
     animation-name: intro-graphis;
     animation-duration: 2s;
     animation-iteration-count: 1;
-    animation-delay: 5s;
+    animation-delay: 4s;
     animation-fill-mode: forwards;
 }
 
@@ -423,7 +424,7 @@ p {
     animation-name: intro-contenttext;
     animation-duration: 2s;
     animation-iteration-count: 1;
-    animation-delay: 6s;
+    animation-delay: 5s;
     animation-fill-mode: forwards;
 }
 
@@ -432,8 +433,13 @@ p {
     animation-name: intro-ninety-nine;
     animation-duration: 2s;
     animation-iteration-count: 1;
-    animation-delay: 7s;
+    animation-delay: 6s;
     animation-fill-mode: forwards;
+}
+
+.l-animation {
+    color: var(--back-textcolor);
+    animation: intro-tyrcis-letters 2s ease-out 0.5s 1 alternate forwards, intro-l-letter 6s ease-out 1 alternate forwards;
 }
 
 @keyframes intro-graphis {
@@ -519,5 +525,19 @@ p {
         color: var(--gray-textcolor);
         filter: blur(0rem);
         transform: translate(0vw, 0vw) rotate(0deg);
+    }
+}
+
+@keyframes intro-l-letter {
+    0% {
+        opacity: 1;
+    }
+
+    65%{
+        opacity: 1;
+    }
+
+    100%{
+        opacity: 0.6;
     }
 }
