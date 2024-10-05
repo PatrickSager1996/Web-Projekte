@@ -5,6 +5,7 @@ Web-Projekte Patrick Sager
 3. 20240919_graphis-Plakat: https://patricksager1996.github.io/Web-Projekte/20240919_graphis-Plakat/
 4. 20240921_graphis-Plakat: https://patricksager1996.github.io/Web-Projekte/20240921_graphis-Plakat/
 5. 20240930_graphis-Plakat: https://patricksager1996.github.io/Web-Projekte/20240930_graphis-Plakat/
+6. graphis-Plakat with JavaScript: https://patricksager1996.github.io/Web-Projekte/graphis-Plakat-with-rotate&javascript/
 7. bill-Plakat: https://patricksager1996.github.io/Web-Projekte/bill-Plakat/
 8. Animation-Banner: https://patricksager1996.github.io/Web-Projekte/Animation-Banner/
 9. Animation-Kategorie: https://patricksager1996.github.io/Web-Projekte/Animation-Kategorie/
