@@ -1,0 +1,111 @@
+@import url("https://use.typekit.net/hsk6tfs.css");
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --primary-large-textcolor: #EE0808;
+    --secondary-large-textcolor: #028B84;
+    --gray-textcolor: #CBCBCB;
+}
+
+body {
+    background-image: radial-gradient(circle, #676565, #000000);
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+p {
+    font-family: "coolvetica", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 35vw;
+    line-height: 15%;
+    color: var(--primary-large-textcolor);
+}
+
+#graphis {
+    color: var(--gray-textcolor);
+    font-size: 10vw;
+    line-height: 120%;
+    margin-left: 9vw;
+}
+
+#text {
+    color: var(--gray-textcolor);
+    font-weight: 500;
+    font-size: 1.5vw;
+    line-height: 120%;
+}
+
+.small-letter-spacing {
+    letter-spacing: -1vw;
+}
+
+.large-letter-spacing {
+    letter-spacing: 20px;
+}
+
+.large-line-height {
+    margin-bottom: 100px;
+}
+
+.parentcontainer {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 2fr 2fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.child-large-letters {
+
+}
+
+.special-cell-a {
+    grid-column: 2;
+    grid-row: 1;
+    text-align: center;
+}
+
+.special-cell-is {
+    grid-column: 3;
+    grid-row: 2;
+    margin-left: 6vw;
+}
+
+.special-cell-oh {
+    grid-column: 2;
+    grid-row: 3;
+}
+
+.special-cell-l {
+    grid-column: 2;
+    grid-row: 3;
+    opacity: 0.6;
+    margin-top: 5vw;
+}
+
+.special-cell-gr {
+    grid-column: 1;
+    grid-row: 2;
+
+}
+
+.special-cell-text {
+    grid-column: 1;
+    grid-row: 3;
+    justify-self: flex-end;
+}
+
+.gray {
+    color: var(--gray-textcolor);
+}
+
+.tyrcis {
+    color: var(--secondary-large-textcolor);
+}
