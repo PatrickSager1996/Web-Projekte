@@ -11,3 +11,4 @@ Web-Projekte Patrick Sager
 9. Animation-Kategorie: https://patricksager1996.github.io/Web-Projekte/Animation-Kategorie/
 10. Landingpage: https://patricksager1996.github.io/Web-Projekte/Landingpage/
 11. Before and After: https://patricksager1996.github.io/Web-Projekte/before%20and%20after/
+12. Anislider: https://patricksager1996.github.io/Web-Projekte/Anislider/
